@@ -61,32 +61,47 @@ export default function Objectives() {
         <h1>Objectives</h1>
         <ul className="list-disc flex flex-col gap-4 text-gray2 text-2xl md:text-xl font-normal pl-10">
           <li>
-            <span className="text-bluepurple font-semibold">Lead in Startup and SME Consulting:</span> Establish as the go-to
-            consulting leader for startups and SMEs globally.
+            <span className="text-bluepurple font-semibold">
+              Lead in Startup and SME Consulting:
+            </span>{" "}
+            Establish as the go-to consulting leader for startups and SMEs
+            globally.
           </li>
           <li>
-            <span className="text-bluepurple font-semibold">Enable Entrepreneurial Success:</span> Empower young entrepreneurs with
-            engaged partnerships and insightful advisory.
+            <span className="text-bluepurple font-semibold">
+              Enable Entrepreneurial Success:
+            </span>{" "}
+            Empower young entrepreneurs with engaged partnerships and insightful
+            advisory.
           </li>
           <li>
-            <span className="text-bluepurple font-semibold">Deliver Quality and Sustainable Solutions:</span> Uphold the highest
-            standards in quality, sustainability, and efficiency in consulting
-            services.
+            <span className="text-bluepurple font-semibold">
+              Deliver Quality and Sustainable Solutions:
+            </span>{" "}
+            Uphold the highest standards in quality, sustainability, and
+            efficiency in consulting services.
           </li>
           <li>
-            <span className="text-bluepurple font-semibold">Foster Compliance and Transparency:</span> Ensure strict adherence to
-            compliance and maintain transparency in all business practices.
+            <span className="text-bluepurple font-semibold">
+              Foster Compliance and Transparency:
+            </span>{" "}
+            Ensure strict adherence to compliance and maintain transparency in
+            all business practices.
           </li>
           <li>
-            <span className="text-bluepurple font-semibold">Drive Result-Oriented Consulting:</span> Commit to delivering tangible and
-            impactful results for all clients.
+            <span className="text-bluepurple font-semibold">
+              Drive Result-Oriented Consulting:
+            </span>{" "}
+            Commit to delivering tangible and impactful results for all clients.
           </li>
         </ul>
       </div>
-      <img
-        src="./Assets/Images/Home/Objectives/profile.png"
-        className="w-2/5 md:w-full objectives-img object-cover"
-      />
+      <div className="w-2/5 md:w-full flex justify-start">
+        <img
+          src="./Assets/Images/Home/Objectives/profile2.jpg"
+          className="w-4/5 md:w-11/12 object-cover"
+        />
+      </div>
     </section>
   );
 }

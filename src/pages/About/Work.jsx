@@ -199,6 +199,7 @@ export default function Work() {
             <img src={concierge} className="about-our-work-logos" />
             <img src={lesconcierges} className="about-our-work-logos" />
             <img src={steelion} className="about-our-work-logos" />
+            <img src={mindescapes} className="about-our-work-logos" />
           </Slider>
         </div>
 

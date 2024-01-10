@@ -156,7 +156,7 @@ export default function Hero() {
           <p className="text-white text-xl font-medium">Services</p>
           <p className="font-base text-base" style={{ color: "#ADD7F6" }}>
             Comprehensive Services for Business Growth, Efficiency, and
-            Financial Expertise
+            Financial Management
           </p>
         </div>
         <div className="bg-navyblue flex flex-col gap-4 justify-center items-start rounded lg:w-full md:w-full md:p-12 p-12 hero-divs-subdiv">

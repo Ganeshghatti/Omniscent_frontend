@@ -24,26 +24,26 @@ export default function Numbers() {
       className="flex lg:flex-wrap md:flex-col justify-center gap-8 md:gap-20 w-11/12 "
     >
       <div className="flex flex-col gap-4 items-center w-1/5 lg:w-2/5 md:w-full numbers-divs-item">
-        <p className="text-6xl text-navyblue font-bold numbers-title">972 +</p>
+        <p className="text-6xl text-navyblue font-bold numbers-title">400 +</p>
         <p className="text-gray2 text-center font-normal text-lg">
           Projects Done
         </p>
       </div>
       <div className="flex flex-col gap-4 items-center w-1/5 lg:w-2/5 md:w-full numbers-divs-item">
-        <p className="text-6xl text-navyblue font-bold numbers-title">181 +</p>
+        <p className="text-6xl text-navyblue font-bold numbers-title">30 +</p>
         <p className="text-gray2 text-center font-normal text-lg">
-          Satisfied Customers
+          Due-deligence<br/> and Valuation
         </p>
       </div>
       <div className="flex flex-col gap-4 items-center w-1/5 lg:w-2/5 md:w-full numbers-divs-item">
-        <p className="text-6xl text-navyblue font-bold numbers-title">98 +</p>
+        <p className="text-6xl text-navyblue font-bold numbers-title">30 +</p>
         <p className="text-gray2 text-center font-normal text-lg">
-          Successful projects
+          Fundraising<br/> including pipeline
         </p>
       </div>
       <div className="flex flex-col gap-4 items-center w-1/5 lg:w-2/5 md:w-full numbers-divs-item">
-        <p className="text-6xl text-navyblue font-bold numbers-title">746 +</p>
-        <p className="text-gray2 text-center font-normal text-lg">Cases </p>
+        <p className="text-6xl text-navyblue font-bold numbers-title">5 +</p>
+        <p className="text-gray2 text-center font-normal text-lg">Partners </p>
       </div>
     </section>
   );

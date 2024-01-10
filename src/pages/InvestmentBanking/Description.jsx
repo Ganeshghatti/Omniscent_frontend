@@ -29,16 +29,16 @@ export default function Description() {
     >
       <div className="flex w-2/5 gap-8 md:w-11/12 md:gap-4 h-full">
         <img
-          src="./Assets/Images/strategic/Brand2.jpg"
+          src="./Assets/Images/Investmentbanking/investment2.jpg"
           className="w-2/5 mt-24 object-cover"
         />
         <div className="flex flex-col gap-4 w-3/5">
           <img
-            src="./Assets/Images/strategic/Brand1.jpg"
+            src="./Assets/Images/Investmentbanking/investment1.jpg"
             className="h-2/5 object-cover"
           />
           <img
-            src="https://elkit.wirastudio.co/covad/wp-content/uploads/sites/26/elementor/thumbs/pleasant-friendly-indian-guy-manager-or-financial-consultant-communicates-with-colleagues-on-a-q560rt4on9kwm600ta40auge1p9t93ip1sfr1zwdi0.jpg"
+            src="./Assets/Images/Investmentbanking/investment3.jpg"
             className="h-2/5 object-cover"
           />
         </div>

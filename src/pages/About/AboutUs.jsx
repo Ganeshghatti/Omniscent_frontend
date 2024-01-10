@@ -8,9 +8,9 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useMediaQuery } from "react-responsive";
-import Aboutuspageimg from "./Aboutuspageimg.png";
-import founderphoto from "./founderphoto.png";
-import varun from "./varun.png";
+import Aboutuspageimg from "./aboutusimg2.jpg";
+import founderphoto from "./founderphoto2.png";
+import varun from "./varun2.png";
 import abhishek from "./abhishek.png";
 import partner from "./partner.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -332,7 +332,7 @@ export default function AboutUs() {
           ambitions. Discover our legacy of success, where your business's
           evolution is our prime commitment.
         </p>
-        <img src={Aboutuspageimg} className="w-1/2 md:w-full about-sec1-img" />
+        <img src={Aboutuspageimg} className="w-2/5 md:w-full about-sec1-img" />
       </div>
       <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec2">
         <img
@@ -443,11 +443,11 @@ export default function AboutUs() {
       </div> */}
       <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec3">
         <div className="flex flex-col gap-6 w-1/2 md:w-full about-sec3-p">
-          <p className="text-2xl font-bold text-bluepurple md:text-center">
+          {/* <p className="text-2xl font-bold text-bluepurple md:text-center">
             Our Partners
-          </p>
+          </p> */}
           <h1 className="md:text-center">
-            Principal Consultant, Digital Transformation and Sustainability
+            Advisor, Digital Transformation and Sustainability
           </h1>
           <img
             src={partner}

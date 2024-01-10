@@ -1,10 +1,8 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import workintroimg from "./workintroimg.png"
 
 export default function Approach() {
-  const user = useSelector((state) => state.user.user);
 
   return (
     <div className="flex flex-col items-center" style={{ marginTop: "10vh" }}>
@@ -61,7 +59,7 @@ export default function Approach() {
             in this segment.{" "}
           </p>{" "}
           <Link
-            to={`${user.email ? "/form" : "/login"}`}
+            to="/form"
             className="w-fit hero-button"
           >
             <p className="flex text-navyblue font-normal text-lg md:text-base">
@@ -102,7 +100,7 @@ export default function Approach() {
             for Initial Public offerings.
           </p>
           <Link
-            to={`${user.email ? "/form" : "/login"}`}
+            to="/form"
             className="w-fit hero-button"
           >
             <p className="flex text-white font-normal text-lg md:text-base">
@@ -146,7 +144,7 @@ export default function Approach() {
             providing a strategic fit for our potential clients in this segment.
           </p>
           <Link
-            to={`${user.email ? "/form" : "/login"}`}
+            to="/form"
             className="w-fit hero-button"
           >
             <p className="flex text-navyblue font-normal text-lg md:text-base">

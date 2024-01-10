@@ -78,7 +78,7 @@ export default function Form() {
 
       setLoading(true);
 
-      const response = await axios.post("https://omniscent-vercel-backend.vercel.app/form", formData);
+      const response = await axios.post("http://localhost:5000/form", formData);
       console.log(response)
       setLoading(false);
       window.scrollTo(0, 0);
@@ -225,7 +225,7 @@ export default function Form() {
                 </svg>
               </a>
             </div>
-            <div className="flex flex-col items-start justify-center gap-4 p-8 rounded bg-white w-1/4 lg:w-full md:w-full">
+            <div className="flex flex-col items-start justify-center gap-4 px-8 py-12 rounded bg-white w-1/4 lg:w-full md:w-full">
               <div className="rounded-full bg-navyblue p-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -240,15 +240,16 @@ export default function Form() {
                   />
                 </svg>
               </div>
-              <p className="text-2xl md:text-xl font-medium ">Meet Us</p>
+              <p className="text-2xl md:text-xl font-medium">Meet Us</p>
               <p className="text-gray2 text-lg md:text-base font-normal">
-                You can meet us at our office and discuss the details.{" "}
+                You can meet us at a convenient place 
               </p>
-              <a
+            
+              {/* <a
                 href="mailto:ramakrishnan@omniscientperspectives.in"
                 className="text-navyblue text-lg md:text-base font-medium flex items-center"
               >
-                Get Directions{" "}
+                Get Directions
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="26"
@@ -261,7 +262,7 @@ export default function Form() {
                     fill="#1F20AE"
                   />
                 </svg>
-              </a>
+              </a> */}
             </div>
             <div className="flex flex-col items-start justify-center gap-4 p-8 rounded bg-white w-1/4 lg:w-full md:w-full">
               <div className="rounded-full bg-navyblue p-3">
