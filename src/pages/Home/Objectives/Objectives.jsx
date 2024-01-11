@@ -99,7 +99,7 @@ export default function Objectives() {
       <div className="w-2/5 md:w-full flex justify-start">
         <img
           src="./Assets/Images/Home/Objectives/profile2.jpg"
-          className="w-4/5 md:w-11/12 object-cover"
+          className="w-4/5 md:w-11/12 object-cover objectives-img"
         />
       </div>
     </section>

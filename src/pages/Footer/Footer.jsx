@@ -48,13 +48,13 @@ export default function Footer() {
           +91 7411035211
         </a>
         <a
-          href="mailto:ramakrishnan@omniscientperspectives.in"
+          href="mailto:contact@omniscientperspectives.in"
           className="text-base flex text-white md:text-base font-semibold gap-2 text-left w-fit"
         >
           <MailIcon style={{ color: "white" }} />
-          ramakrishnan
+          contact
           <br />
-          @omniscientperspectives.in
+          @omniscientperspectives.in{" "}
         </a>
 
         <div className="flex gap-3 justify-center md:w-full w-1/2">

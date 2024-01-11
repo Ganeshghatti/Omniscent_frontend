@@ -20,7 +20,7 @@ export default function OperationalExcellence() {
   
   return (
     <section
-      id="consulting-operational-list"
+      id="operational-excellence"
       style={{ backgroundColor: "#F5F5F3" }}
       className="flex justify-center w-full gap-16 md:flex-col md:items-center md:gap-8"
     >

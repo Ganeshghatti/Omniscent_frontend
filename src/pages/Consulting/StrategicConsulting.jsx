@@ -18,7 +18,7 @@ export default function StrategicConsulting() {
   }, [location]);
   return (
     <section
-      id="consulting-strategic-list"
+      id="strategy-consulting"
       className="w-11/12 flex pt-24 gap-16 md:flex-col py-16 md:py-12 md:gap-8"
     >
       <div className="w-1/2 flex flex-col gap-4 justify-center md:w-full ">
