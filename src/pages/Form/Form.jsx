@@ -202,12 +202,12 @@ export default function Form() {
                   />
                 </svg>
               </div>
-              <p className="text-2xl md:text-xl font-medium ">Email Us</p>
+              <p className="text-2xl md:text-xl font-medium">Email Us</p>
               <p className="text-gray2 text-lg md:text-base font-normal">
                 Ask anything by emailing us and we’ll respond within a few days.
               </p>
               <a
-                href="mailto:ramakrishnan@omniscientperspectives.in"
+                href="mailto:contact@omniscientperspectives.in"
                 className="text-navyblue text-lg md:text-base font-medium flex items-center"
               >
                 Send Email
@@ -327,7 +327,7 @@ export default function Form() {
         </div>
       ) : (
         <>
-          <h1>Request A Demo</h1>
+          <h1>Reach for Assistance</h1>
           <p className="text-gray2 text-xl text-center md:text-lg lg:w-11/12 md:w-3/4  my-4">
             We'll get in touch with you to answer your inquiries as soon as you
             submit this form

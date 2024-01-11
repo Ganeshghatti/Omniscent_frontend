@@ -23,7 +23,7 @@ import steelion from "./logos/steelion.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./About.scss";
-import ourworkintro from "./ourworkintro.png"
+import ourworkimg from "./ourworkimg.png"
 
 export default function Work() {
   const settings = {
@@ -70,7 +70,7 @@ export default function Work() {
         </div>
         <div className="flex justify-center items-center h-full w-2/5 md:w-full fractional-cfo-sec1-img">
           <img
-            src={ourworkintro}
+            src={ourworkimg}
             className="object-cover self-end"
             style={{ borderRadius: "50%", objectFit: "cover" }}
           />

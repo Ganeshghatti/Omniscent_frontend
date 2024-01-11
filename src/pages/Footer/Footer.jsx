@@ -39,19 +39,19 @@ export default function Footer() {
       className="flex md:flex-col justify-center items-start py-12 md:gap-16 md:items-center"
     >
       <div className="w-1/4 flex flex-col items-left gap-4 md:items-center md:w-full footer-div">
-        <p className="text-black uppercase text-lg">Call us Today</p>
+        <p className="text-white uppercase text-lg">Call us Today</p>
         <a
           href="tel:7411035211"
-          className="text-base text-black md:text-lg font-semibold gap-2 w-fit"
+          className="text-base text-white md:text-lg font-semibold gap-2 w-fit"
         >
-          <PhoneIcon style={{ color: "black" }} />
+          <PhoneIcon style={{ color: "white" }} />
           +91 7411035211
         </a>
         <a
           href="mailto:ramakrishnan@omniscientperspectives.in"
-          className="text-base flex text-black md:text-base font-semibold gap-2 text-left w-fit"
+          className="text-base flex text-white md:text-base font-semibold gap-2 text-left w-fit"
         >
-          <MailIcon style={{ color: "black" }} />
+          <MailIcon style={{ color: "white" }} />
           ramakrishnan
           <br />
           @omniscientperspectives.in
@@ -97,7 +97,7 @@ export default function Footer() {
           </a> */}
         </div>
       </div>
-      <ul className="text-xl text-black md:text-xl flex flex-col w-1/5 gap-6 font-semibold md:w-full footer-div">
+      <ul className="text-xl text-white md:text-xl flex flex-col w-1/5 gap-6 font-semibold md:w-full footer-div">
         <li className=" md:text-center">
           <Link to="/">Home</Link>
         </li>
@@ -111,8 +111,8 @@ export default function Footer() {
           <Link to="/privacy-policy">Privacy Policy</Link>
         </li>
         {/* <div className="mt-8 flex flex-col  md:pl-6">
-          <p className="text-black font-medium text-xl md:pl-4">Services</p>
-          <ul className="text-base text-black flex flex-col gap-5">
+          <p className="text-white font-medium text-xl md:pl-4">Services</p>
+          <ul className="text-base text-white flex flex-col gap-5">
             <li className="mt-4">
               <Link
                 to="/services/outsource-CFO"
@@ -135,8 +135,8 @@ export default function Footer() {
         </div> */}
       </ul>
       <div className="w-1/5 flex gap-4 flex-col md:pl-6  md:w-full footer-div md:items-center">
-        <p className="text-black font-medium text-xl md:pl-4">Consulting</p>
-        <ul className="text-base text-black flex flex-col gap-5">
+        <p className="text-white font-medium text-xl md:pl-4">Consulting</p>
+        <ul className="text-base text-white flex flex-col gap-5">
           <li className="mt-4">
             <Link
               to="/consulting#strategy-consulting"
@@ -234,7 +234,7 @@ export default function Footer() {
           to="/fractional-CFO-services"
           className="hover:text-navyblue flex items-center "
         >
-          <p className="text-black font-medium text-xl md:pl-4 hover:text-navyblue">
+          <p className="text-white font-medium text-xl md:pl-4 hover:text-navyblue">
             Fractional CFO Services
           </p>
         </Link>
@@ -242,11 +242,11 @@ export default function Footer() {
           to="/investment-banking"
           className="hover:text-navyblue flex items-center "
         >
-          <p className="text-black font-medium text-xl md:pl-4 hover:text-navyblue">
+          <p className="text-white font-medium text-xl md:pl-4 hover:text-navyblue">
             Investment Banking{" "}
           </p>
         </Link>
-        {/* <ul className="text-base text-black flex flex-col gap-5">
+        {/* <ul className="text-base text-white flex flex-col gap-5">
           <li className="mt-4">
             <Link
               to="/consulting/human-capital"

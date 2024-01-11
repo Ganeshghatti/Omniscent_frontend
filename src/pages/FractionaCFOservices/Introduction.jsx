@@ -119,7 +119,7 @@ export default function Introduction() {
         <div className="flex justify-center items-center h-full w-2/5 md:w-full fractional-cfo-sec1-img">
           <img
             src="./Assets/Images/fractionalcfo/intro.png"
-            className="object-cover  self-end"
+            className="object-cover self-end"
             style={{ borderRadius: "50%", objectFit: "cover" }}
           />
         </div>

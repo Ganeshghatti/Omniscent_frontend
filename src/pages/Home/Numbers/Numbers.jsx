@@ -38,7 +38,7 @@ export default function Numbers() {
       <div className="flex flex-col gap-4 items-center w-1/5 lg:w-2/5 md:w-full numbers-divs-item">
         <p className="text-6xl text-navyblue font-bold numbers-title">30 +</p>
         <p className="text-gray2 text-center font-normal text-lg">
-          Fundraising<br/> including pipeline
+          Fundraising
         </p>
       </div>
       <div className="flex flex-col gap-4 items-center w-1/5 lg:w-2/5 md:w-full numbers-divs-item">
