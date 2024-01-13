@@ -176,7 +176,7 @@ export default function Partners() {
                 MindEscapes
               </p>
               <p className="md:text-center font-normal text-lg md:text-lg text-gray2">
-                For Startup and Sustainability Financing
+                Innovation Ecosystem for SMEs and Startups
               </p>{" "}
               <a
                 href="https://mindescapes.in/"

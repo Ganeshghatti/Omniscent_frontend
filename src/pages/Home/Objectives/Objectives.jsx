@@ -63,35 +63,35 @@ export default function Objectives() {
           <li>
             <span className="text-bluepurple font-semibold">
               Lead in Startup and SME Consulting:
-            </span>{" "}
+            </span>
             Establish as the go-to consulting leader for startups and SMEs
             globally.
           </li>
           <li>
             <span className="text-bluepurple font-semibold">
               Enable Entrepreneurial Success:
-            </span>{" "}
+            </span>
             Empower young entrepreneurs with engaged partnerships and insightful
             advisory.
           </li>
           <li>
             <span className="text-bluepurple font-semibold">
               Deliver Quality and Sustainable Solutions:
-            </span>{" "}
+            </span>
             Uphold the highest standards in quality, sustainability, and
             efficiency in consulting services.
           </li>
           <li>
             <span className="text-bluepurple font-semibold">
               Foster Compliance and Transparency:
-            </span>{" "}
+            </span>
             Ensure strict adherence to compliance and maintain transparency in
             all business practices.
           </li>
           <li>
             <span className="text-bluepurple font-semibold">
               Drive Result-Oriented Consulting:
-            </span>{" "}
+            </span>
             Commit to delivering tangible and impactful results for all clients.
           </li>
         </ul>
