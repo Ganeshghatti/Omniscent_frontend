@@ -78,7 +78,7 @@ export default function Form() {
 
       setLoading(true);
 
-      const response = await axios.post("http://localhost:5000/form", formData);
+      const response = await axios.post("https://omniscent-backend.vercel.app/form", formData);
       console.log(response)
       setLoading(false);
       window.scrollTo(0, 0);
