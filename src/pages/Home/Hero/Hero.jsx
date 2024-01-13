@@ -97,6 +97,7 @@ export default function Hero() {
       ease: "power4.out",
       opacity: "0",
       stagger: 0.2,
+      delay:1,
       duration: 0.75,
       scrollTrigger: {
         trigger: "#hero",

@@ -63,7 +63,7 @@ export default function Footer() {
             className="bg-white flex items-center justify-center"
             style={{ borderRadius: "50%", width: "40px", height: "40px" }}
           >
-            <img src="./Assets/Images/Icons/linkedin.png" />
+            <img src="./assets/Images/Icons/linkedin.png" />
           </a>
           {/* <a
             href=""

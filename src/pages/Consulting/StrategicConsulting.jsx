@@ -118,16 +118,16 @@ export default function StrategicConsulting() {
       </div>
       <div className="flex h-full w-1/2 gap-8 md:w-full justify-center">
         <img
-          src="./Assets/Images/strategic/planning1.jpg"
+          src="./assets/Images/strategic/planning1.jpg"
           className="w-2/5 mt-24 object-cover"
         />
         <div className="flex flex-col gap-4 w-3/5">
           <img
-          src="./Assets/Images/strategic/planning2.jpg"
+          src="./assets/Images/strategic/planning2.jpg"
           className="h-2/5 object-cover"
           />
           <img
-          src="./Assets/Images/strategic/planning3.jpg"
+          src="./assets/Images/strategic/planning3.jpg"
           className="h-2/5 object-cover"
           />
         </div>

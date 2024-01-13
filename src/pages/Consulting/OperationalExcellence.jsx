@@ -25,7 +25,7 @@ export default function OperationalExcellence() {
       className="flex justify-center w-full gap-16 md:flex-col md:items-center md:gap-8"
     >
       <img
-        src="./Assets/Images/strategic/growth2.jpg"
+        src="./assets/Images/strategic/growth2.jpg"
         className="w-2/5 md:w-full object-cover"
       />
       <div className="flex flex-col w-1/2 md:w-11/12 gap-4 justify-center py-20 md:py-6">

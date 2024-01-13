@@ -354,10 +354,10 @@ export default function AboutUs() {
             excelling in the Lending industry. He holds senior advisory roles in
             a leading NBFC & Fintech Company, contributing significantly to
             strategy and business development. Noteworthy achievements include
-            co-founding a Financial Services Distribution and Collection
-            services company. As a co-founder of an Operating Leasing and
-            Equipment Rental Company, his focus on the Infrastructure Sector
-            emphasizes renewable energy enablement.
+            co-founding a Micro Finance NBFC and a Financial Services
+            Distribution and Collection services company. As a co-founder of an
+            Operating Leasing and Equipment Rental Company, his focus on the
+            Infrastructure Sector emphasizes renewable energy enablement.
             <br />
             <br /> With a rich background, he served as Business Head and Senior
             VP of Infrastructure Financing at Kotak Mahindra Bank and co-founded
@@ -511,10 +511,7 @@ export default function AboutUs() {
       <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec5">
         <div className="flex flex-col gap-6 w-1/2 md:w-full about-sec5-p">
           <h1 className="md:text-center">Consultant</h1>
-          <img
-            src={varun}
-            className="md:block hidden md:w-full object-cover"
-          />
+          <img src={varun} className="md:block hidden md:w-full object-cover" />
           <p className="text-2xl md:text-xl text-gray2 text-justify">
             <span className="font-medium text-navyblue">Varun Nagarajan </span>
             is a seasoned professional with a proven track record in

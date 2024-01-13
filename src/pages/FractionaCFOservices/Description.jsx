@@ -9,7 +9,7 @@ export default function Description() {
       className="w-11/12 flex flex-col py-24 gap-6"
     >
       <img
-        src="./Assets/Images/strategic/meeting3.jpg"
+        src="./assets/Images/strategic/meeting3.jpg"
         className="w-full object-cover"
         style={{ height: "60vh", objectPosition: "center 30%" }}
       />

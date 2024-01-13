@@ -114,7 +114,7 @@ export default function Introduction() {
         </div>
         <div className="flex justify-center items-center h-full w-2/5 md:w-full consulting-sec1-img">
           <img
-            src="./Assets/Images/strategic/intro.png"
+            src="./assets/Images/strategic/intro.png"
             className="object-cover  self-end"
             style={{ borderRadius: "50%", objectFit: "cover" }}
           />

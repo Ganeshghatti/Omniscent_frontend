@@ -29,16 +29,16 @@ export default function Description() {
     >
       <div className="flex w-2/5 gap-8 md:w-11/12 md:gap-4 h-full">
         <img
-          src="./Assets/Images/Investmentbanking/investment2.jpg"
+          src="./assets/Images/Investmentbanking/investment2.jpg"
           className="w-2/5 mt-24 object-cover"
         />
         <div className="flex flex-col gap-4 w-3/5">
           <img
-            src="./Assets/Images/Investmentbanking/investment1.jpg"
+            src="./assets/Images/Investmentbanking/investment1.jpg"
             className="h-2/5 object-cover"
           />
           <img
-            src="./Assets/Images/Investmentbanking/investment3.jpg"
+            src="./assets/Images/Investmentbanking/investment3.jpg"
             className="h-2/5 object-cover"
           />
         </div>
