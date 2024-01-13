@@ -10,7 +10,7 @@ export default function PageNotFound() {
       <h1>Oops!</h1>
       <p className="text-gray2 text-lg font-normal">You are lost</p>
       <img
-        src="./Assets/Images/pagenotfoundimg.png"
+        src="./assets/Images/pagenotfoundimg.png"
         className="w-1/3 md:w-96"
       />
       <Link
