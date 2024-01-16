@@ -58,7 +58,7 @@ export default function Founder() {
     >
       {" "}
       <img
-        src="./Assets/Images/About/founder.jpeg"
+        src="./assets/Images/About/founder.jpeg"
         className="w-1/3 md:w-full founder-img object-cover"
       />
       <div className="flex flex-col gap-8 justify-center w-2/3 md:w-full md:p-6 px-24 founder-div">
