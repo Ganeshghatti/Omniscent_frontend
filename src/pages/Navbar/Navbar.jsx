@@ -295,7 +295,7 @@ export default function Navbar() {
                   <DropdownMenu aria-label="Link Actions">
                     <DropdownItem
                       onClick={() =>
-                        mobilenavf("/consulting/strategy-consulting")
+                        mobilenavf("/consulting#strategy-consulting")
                       }
                     >
                       <ArrowRightOutlinedIcon className="text-navyblue" />
@@ -303,7 +303,7 @@ export default function Navbar() {
                     </DropdownItem>
                     <DropdownItem
                       onClick={() =>
-                        mobilenavf("/consulting/operational-excellence")
+                        mobilenavf("/consulting#operational-excellence")
                       }
                     >
                       <ArrowRightOutlinedIcon className="text-navyblue" />

@@ -96,7 +96,7 @@ export default function Introduction() {
           Positioning Excellence to Unlock Value
         </p>
       </div>
-      <section className="flex w-11/12 md:w-11/12 md:flex-col justify-around items-center md:gap-8 investment-sec1">
+      <section className="flex w-11/12 md:w-11/12 md:flex-col justify-around items-center md:gap-8 investment-sec1 py-8">
         <div className="w-1/2 md:w-full flex flex-col gap-4 md:gap-2 md:pt-4 investment-sec1-p py-12">
           <h1>Introduction</h1>
           <p className="text-navyblue text-2xl font-semibold md:text-xl">
@@ -125,8 +125,8 @@ export default function Introduction() {
           />
         </div>
       </section>{" "}
-      <div className="investment-sec-bg flex items-center justify-center gap-4 flex-col w-full py-16">
-        <p className="text-white text-5xl md:text-3xl font-bold text-center w-3/5 md:w-11/12">
+      <div className="investment-sec-bg flex items-center justify-center gap-4 flex-col w-full py-16 md:py-12">
+        <p className="text-white text-5xl md:text-2xl font-bold text-center w-3/5 md:w-full px-1">
           Get Access to Accredited Angels, Angel Networks, Venture Capital
           Funds, Branks and NBFCS for all your Capital Needs{" "}
         </p>

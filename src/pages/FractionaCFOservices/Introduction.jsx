@@ -105,15 +105,17 @@ export default function Introduction() {
             Efficiency, Risk Mitigation, Performance Enhancement
           </p>
           <p className="text-justify font-normal text-2xl md:text-xl text-gray2">
-            A fractional CFO is an experienced finance professional who
-            brings extensive business management expertise to a company on a
-            part-time or project basis. Small & Medium Businesses and Startups
-            at their early stage of evolution may not have the scale or the
-            ability to higher Senior and experienced professionals for this
-            critical management activity.<br/><br/> Omniscient Perspectives through its
-            vast network of professionals enables to hire an experienced
-            professional, duly vetted after undergoing a stringent process of
-            evaluation while being affordable to the client.
+            A fractional CFO is an experienced finance professional who brings
+            extensive business management expertise to a company on a part-time
+            or project basis. Small & Medium Businesses and Startups at their
+            early stage of evolution may not have the scale or the ability to
+            higher Senior and experienced professionals for this critical
+            management activity.
+            <br />
+            <br /> Omniscient Perspectives through its vast network of
+            professionals enables to hire an experienced professional, duly
+            vetted after undergoing a stringent process of evaluation while
+            being affordable to the client.
           </p>
         </div>
         <div className="flex justify-center items-center h-full w-2/5 md:w-full fractional-cfo-sec1-img">
@@ -124,8 +126,8 @@ export default function Introduction() {
           />
         </div>
       </section>{" "}
-      <div className="fractional-cfo-sec-bg flex items-center justify-center gap-4 flex-col w-full py-16">
-        <p className="text-white text-5xl md:text-3xl font-bold text-center w-3/5 md:w-11/12">
+      <div className="fractional-cfo-sec-bg flex items-center justify-center gap-4 flex-col w-full py-16 md:py-12">
+        <p className="text-white text-5xl md:text-2xl font-bold text-center w-3/5 md:w-full px-1">
           Get access to the right financial direction for your growing business
         </p>
         <Link to="/form" className="w-fit mt-6">

@@ -86,7 +86,7 @@ export default function Work() {
               Board and Strategy Advisory
             </p>
 
-            <ul className="flex flex-col gap-2 text-justify font-normal text-2xl md:text-xl text-gray2">
+            <ul className="flex flex-col gap-2 text-justify font-normal text-2xl md:text-xl text-gray2 md:pr-3">
               <li className="flex">
                 <ArrowRightOutlinedIcon
                   className="text-navyblue"
@@ -97,7 +97,7 @@ export default function Work() {
               </li>
               <li className="flex">
                 <ArrowRightOutlinedIcon
-                  className="text-navyblue"
+                  className="text-navyblue p-0"
                   style={{ fontSize: 35 }}
                 />
                 Director in a Fintech Company providing Embedded Financial

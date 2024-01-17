@@ -19,9 +19,9 @@ export default function StrategicConsulting() {
   return (
     <section
       id="strategy-consulting"
-      className="w-11/12 flex pt-24 gap-16 md:flex-col py-16 md:py-12 md:gap-8"
+      className="w-11/12 flex pt-24 gap-16 md:flex-col-reverse py-16 md:py-12 md:gap-8"
     >
-      <div className="w-1/2 flex flex-col gap-4 justify-center md:w-full ">
+      <div className="w-1/2 flex flex-col gap-4 justify-center md:w-full">
         <h1>Strategy Consulting</h1>
         <p className="text-navyblue text-xl md:text-lg font-medium">We Strategize, You Thrive</p>
         <p className="text-justify font-normal text-2xl md:text-xl text-gray2 mt-4">
@@ -61,7 +61,7 @@ export default function StrategicConsulting() {
           Our Coverage involves:-
         </p>
         <div className="flex md:flex-col font-normal text-2xl md:text-lg text-gray2 w-full">
-          <ul className="w-1/2 flex flex-col gap-2">
+          <ul className="w-1/2 flex flex-col gap-2 md:w-full">
             <li className="flex">
               <ArrowRightOutlinedIcon className="text-navyblue" />
               Planning for Growth
@@ -87,7 +87,7 @@ export default function StrategicConsulting() {
               Geographical Expansion
             </li>
           </ul>
-          <ul className="w-1/2 flex flex-col gap-2">
+          <ul className="w-1/2 flex flex-col gap-2 md:w-full pt-2">
             <li className="flex">
               {" "}
               <ArrowRightOutlinedIcon className="text-navyblue" />

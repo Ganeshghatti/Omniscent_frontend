@@ -59,7 +59,7 @@ export default function Footer() {
 
         <div className="flex gap-3 justify-center md:w-full w-1/2">
           <a
-            href=""
+            href="https://www.linkedin.com/in/omniscient-perspectives-pvt-ltd-4360aa192/"
             className="bg-white flex items-center justify-center"
             style={{ borderRadius: "50%", width: "40px", height: "40px" }}
           >

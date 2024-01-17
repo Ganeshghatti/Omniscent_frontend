@@ -120,8 +120,8 @@ export default function Introduction() {
           />
         </div>
       </section>{" "}
-      <div className="consulting-sec-bg flex items-center justify-center gap-4 flex-col w-full py-16">
-        <p className="text-white text-5xl md:text-3xl font-bold text-center w-3/5 md:w-11/12">
+      <div className="consulting-sec-bg flex items-center justify-center gap-4 flex-col w-full py-16 md:py-12">
+        <p className="text-white text-5xl md:text-2xl font-bold text-center w-3/5 md:w-full px-1">
           Get access to the appropriate long term strategic direction for
           setting up, running or growing your business{" "}
         </p>

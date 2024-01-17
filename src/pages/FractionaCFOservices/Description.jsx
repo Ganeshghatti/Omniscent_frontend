@@ -13,7 +13,7 @@ export default function Description() {
         className="w-full object-cover"
         style={{ height: "60vh", objectPosition: "center 30%" }}
       />
-      <h1 className="md:text-center">Fractional CFO Services</h1>
+      <h1>Fractional CFO Services</h1>
       <p className="text-justify font-normal list-disc text-2xl md:text-xl text-gray2 w-full">
         As a regular retainership engagement we support the target segments
         covering Startups, Small and Medium Enterprises and Small Non-Banking
@@ -32,44 +32,44 @@ export default function Description() {
       <p className="text-justify font-normal list-disc text-2xl md:text-xl text-gray2 w-full">
         Scope of work for CFO services
       </p>
-      <div className="flex md:flex-col md:gap-8 gap-12">
+      <div className="flex md:flex-col md:gap-0 gap-12">
         <ul className="text-justify font-normal text-xl gap-2 flex flex-col md:text-lg text-gray2 w-2/5 md:w-full">
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
             />
             <p>Preparation and Analysis of periodical Financial Statements</p>
           </li>
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
             />
             <p>Assistance with Forecasting</p>
           </li>
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
             />
             <p>Develop and Analyse Business Plans</p>
           </li>
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
             />
             <p>Develop Financial Models</p>
           </li>
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
             />
             <p>Reporting assistance addressing</p>
           </li>
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
@@ -77,7 +77,7 @@ export default function Description() {
             <p>Analysis of Major Expenses</p>
           </li>
         </ul>
-        <ul className="text-justify font-normal text-xl gap-2 flex flex-col md:text-lg text-gray2 w-2/5 md:w-full">
+        <ul className="text-justify font-normal text-xl gap-2 flex flex-col md:text-lg text-gray2 w-2/5 md:w-full pt-2">
           <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
@@ -85,21 +85,21 @@ export default function Description() {
             />
             <p>Budgeting Reports</p>
           </li>
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
             />
             <p>Cash Flow Reports</p>
           </li>
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
             />
             <p>Manage Accounts Receivable and Accounts Payable</p>
           </li>
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
@@ -109,14 +109,14 @@ export default function Description() {
               Company-wide meetings.
             </p>
           </li>
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
             />
             <p>Analyse Business Opportunities and Supporting in Strategies</p>
           </li>
-          <li className="flex items-center">
+          <li className="flex">
             <FontAwesomeIcon
               icon={faCheck}
               className="text-bluepurple font-bold text-2xl pr-2"
