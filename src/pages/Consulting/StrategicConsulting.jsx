@@ -23,17 +23,16 @@ export default function StrategicConsulting() {
     >
       <div className="w-1/2 flex flex-col gap-4 justify-center md:w-full">
         <h1>Strategy Consulting</h1>
-        <p className="text-navyblue text-xl md:text-lg font-medium">We Strategize, You Thrive</p>
+        <p className="text-navyblue text-xl md:text-lg font-medium">
+          We Strategize, You Thrive
+        </p>
         <p className="text-justify font-normal text-2xl md:text-xl text-gray2 mt-4">
           Our Consulting efforts are focused towards helping organizations
           define their long-term goals and create a roadmap to achieve them. It
           involves high-level decision-making, market positioning, competitive
           advantage, and overall business direction.
         </p>
-        <Link
-          to="/form"
-          className="w-fit hero-button"
-        >
+        <Link to="/form" className="w-fit hero-button">
           <button
             variant="contained"
             className="bg-navyblue border-1 border-solid border-navyblue text-white rounded flex items-center px-4 py-2"
@@ -120,15 +119,18 @@ export default function StrategicConsulting() {
         <img
           src="./assets/Images/strategic/planning1.jpg"
           className="w-2/5 mt-24 object-cover"
+          alt="Omniscient Perspectives strategy consulting-1"
         />
         <div className="flex flex-col gap-4 w-3/5">
           <img
-          src="./assets/Images/strategic/planning2.jpg"
-          className="h-2/5 object-cover"
+            src="./assets/Images/strategic/planning2.jpg"
+            className="h-2/5 object-cover"
+            alt="Omniscient Perspectives strategy consulting-2"
           />
           <img
-          src="./assets/Images/strategic/planning3.jpg"
-          className="h-2/5 object-cover"
+            src="./assets/Images/strategic/planning3.jpg"
+            className="h-2/5 object-cover"
+            alt="Omniscient Perspectives strategy consulting-3"
           />
         </div>
       </div>

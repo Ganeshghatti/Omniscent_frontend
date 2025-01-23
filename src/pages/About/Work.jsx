@@ -23,7 +23,8 @@ import steelion from "./logos/steelion.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./About.scss";
-import ourworkimg from "./ourworkimg.png"
+import ourworkimg from "./ourworkimg.png";
+import {Helmet} from "react-helmet";
 
 export default function Work() {
   const settings = {
@@ -43,6 +44,14 @@ export default function Work() {
 
   return (
     <div className="flex flex-col items-center" style={{ marginTop: "10vh" }}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Our Work | Omniscient Perspectives </title>
+        <link
+          rel="canonical"
+          href="https://omniscientperspectives.com/about/our-work"
+        />
+      </Helmet>
       <div className="about-work-header flex items-center justify-center gap-4 flex-col w-full page-header">
         <p className="text-white text-5xl md:text-3xl font-bold text-center page-header-heading">
           Our Work
@@ -73,13 +82,11 @@ export default function Work() {
             src={ourworkimg}
             className="object-cover self-end"
             style={{ borderRadius: "50%", objectFit: "cover" }}
+            alt="Omniscient Perspectives work intro"
           />
         </div>
       </section>{" "}
-      <section
-        id="work"
-        className="flex flex-col items-center w-full"
-      >
+      <section id="work" className="flex flex-col items-center w-full">
         <div className="flex md:flex-col justify-center gap-12 py-20 w-11/12">
           <div className="flex flex-col gap-4 w-1/2 md:w-full">
             <p className="text-navyblue text-3xl mt-3 font-semibold md:text-2xl">
@@ -123,11 +130,19 @@ export default function Work() {
               </li>
             </ul>
           </div>
-          <img src={work1} className="w-1/2 md:w-full object-cover" />
+          <img
+            src={work1}
+            className="w-1/2 md:w-full object-cover"
+            alt="Omniscient Perspectives work-1"
+          />
         </div>
 
         <div className="flex md:flex-col justify-center gap-12 pt-20 w-11/12">
-          <img src={work2} className="w-1/2 md:w-full object-cover" />
+          <img
+            src={work2}
+            className="w-1/2 md:w-full object-cover"
+            alt="Omniscient Perspectives work-2"
+          />
           <div className="flex flex-col gap-4 w-1/2 md:w-full">
             <p className="text-navyblue text-3xl mt-3 font-semibold md:text-2xl">
               Strategy Advisory{" "}
@@ -189,17 +204,61 @@ export default function Work() {
         >
           <h1 className="text-center">Our Clients</h1>
           <Slider {...settings}>
-            <img src={projectindigo} className="about-our-work-logos" />
-            <img src={billiontech} className="about-our-work-logos" />
-            <img src={billionloans} className="about-our-work-logos" />
-            <img src={bizlog} className="about-our-work-logos" />
-            <img src={alkenist} className="about-our-work-logos" />
-            <img src={bull} className="about-our-work-logos" />
-            <img src={gridsentry} className="about-our-work-logos" />
-            <img src={concierge} className="about-our-work-logos" />
-            <img src={lesconcierges} className="about-our-work-logos" />
-            <img src={steelion} className="about-our-work-logos" />
-            <img src={mindescapes} className="about-our-work-logos" />
+            <img
+              src={projectindigo}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients projectindigo"
+            />
+            <img
+              src={billiontech}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients billiontech"
+            />
+            <img
+              src={billionloans}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients billionloans"
+            />
+            <img
+              src={bizlog}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients bizlog"
+            />
+            <img
+              src={alkenist}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients alkenist"
+            />
+            <img
+              src={bull}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients bull"
+            />
+            <img
+              src={gridsentry}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients gridsentry"
+            />
+            <img
+              src={concierge}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients concierge"
+            />
+            <img
+              src={lesconcierges}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients lesconcierges"
+            />
+            <img
+              src={steelion}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients steelion"
+            />
+            <img
+              src={mindescapes}
+              className="about-our-work-logos"
+              alt="Omniscient Perspectives clients mindescapes"
+            />
           </Slider>
         </div>
 
@@ -209,6 +268,7 @@ export default function Work() {
         >
           <img
             src={workimg}
+            alt="Omniscient Perspectives work Description"
             className="w-full object-cover"
             style={{ height: "60vh", objectPosition: "66%" }}
           />

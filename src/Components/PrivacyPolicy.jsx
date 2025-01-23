@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 export default function PrivacyPolicy() {
   return (
@@ -6,6 +7,15 @@ export default function PrivacyPolicy() {
       className="w-screen flex flex-col gap-6 justify-center px-20 md:px-10 py-12"
       style={{ marginTop: "14vh" }}
     >
+      {" "}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Privacy Policy | Omniscient Perspectives </title>
+        <link
+          rel="canonical"
+          href="https://omniscientperspectives.com/privacy-policy"
+        />
+      </Helmet>
       <h1>PRIVACY POLICY</h1>
       <p className="text-2xl md:text-xl text-navyblue font-medium">
         1. INTRODUCTION TO THE POLICY

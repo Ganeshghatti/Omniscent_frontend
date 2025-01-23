@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default function PageNotFound() {
   return (
@@ -7,6 +8,15 @@ export default function PageNotFound() {
       className="w-screen h-screen flex flex-col gap-6 justify-center items-center"
       style={{ marginTop: "8vh" }}
     >
+      {" "}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>404 Page Not Found | Omniscient Perspectives </title>
+        <link
+          rel="canonical"
+          href="https://omniscientperspectives.com/privacy-policy"
+        />
+      </Helmet>
       <h1>Oops!</h1>
       <p className="text-gray2 text-lg font-normal">You are lost</p>
       <img

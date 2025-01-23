@@ -60,6 +60,7 @@ export default function Founder() {
       <img
         src="./assets/Images/About/founder.jpeg"
         className="w-1/3 md:w-full founder-img object-cover"
+        alt="Omniscient Perspectives CEO Ramakrishnan Venkateswaran"
       />
       <div className="flex flex-col gap-8 justify-center w-2/3 md:w-full md:p-6 px-24 founder-div">
         <p className="home-founder-title">About The Founder</p>
@@ -73,7 +74,7 @@ export default function Founder() {
           Notably, he played a pivotal role in co-founding a Financial Services
           Distribution and Collection services company.
         </p>
-        <Link to="/about" className="w-fit">
+        <Link to="/about/about-us" className="w-fit">
           <p className="flex text-white font-normal text-2xl md:text-xl hero-founder-readmore">
             Read More
             <svg

@@ -122,6 +122,7 @@ export default function Introduction() {
             src="./assets\Images\Investmentbanking\intro.png"
             className="object-cover  self-end"
             style={{ borderRadius: "50%", objectFit: "cover" }}
+            alt="Omniscient Perspectives Investment Banking introduction"
           />
         </div>
       </section>{" "}

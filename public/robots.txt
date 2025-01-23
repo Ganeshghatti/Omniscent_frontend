@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://omniscientperspectives.com/sitemap.xml

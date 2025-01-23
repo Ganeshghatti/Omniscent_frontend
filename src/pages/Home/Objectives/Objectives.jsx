@@ -100,6 +100,7 @@ export default function Objectives() {
         <img
           src="./assets/Images/Home/Objectives/profile2.jpg"
           className="w-4/5 md:w-11/12 object-cover objectives-img"
+          alt="Omniscient Perspectives Objectives"
         />
       </div>
     </section>

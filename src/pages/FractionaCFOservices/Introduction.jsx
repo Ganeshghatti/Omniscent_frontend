@@ -123,6 +123,7 @@ export default function Introduction() {
             src="./assets/Images/fractionalcfo/intro.png"
             className="object-cover self-end"
             style={{ borderRadius: "50%", objectFit: "cover" }}
+            alt="Omniscient Perspectives Fractional CFO services introduction"
           />
         </div>
       </section>{" "}

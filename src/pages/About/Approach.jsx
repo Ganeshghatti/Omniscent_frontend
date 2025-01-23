@@ -1,11 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import workintroimg from "./workintroimg.png"
+import workintroimg from "./workintroimg.png";
+import {Helmet} from "react-helmet";
 
 export default function Approach() {
-
   return (
     <div className="flex flex-col items-center" style={{ marginTop: "10vh" }}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Our Approach | Omniscient Perspectives </title>
+        <link
+          rel="canonical"
+          href="https://omniscientperspectives.com/about/our-approach"
+        />
+      </Helmet>
       <div className="about-approach-header flex items-center justify-center gap-4 flex-col w-full page-header">
         <p className="text-white text-5xl md:text-3xl font-bold text-center page-header-heading">
           Our Approach
@@ -37,6 +45,7 @@ export default function Approach() {
             src={workintroimg}
             className="object-cover  self-end "
             style={{ borderRadius: "50%", objectFit: "cover" }}
+            alt="Omniscient Perspectives Approach"
           />
         </div>
       </section>
@@ -58,10 +67,7 @@ export default function Approach() {
             are well positioned based on our experience of working extensively
             in this segment.{" "}
           </p>{" "}
-          <Link
-            to="/form"
-            className="w-fit hero-button"
-          >
+          <Link to="/form" className="w-fit hero-button">
             <p className="flex text-navyblue font-normal text-lg md:text-base">
               Know More
               <svg
@@ -87,7 +93,9 @@ export default function Approach() {
           className="flex flex-col gap-3 custom-width-30 md:w-full p-6 rounded bg-navyblue justify-around"
           style={{ border: "1.5px solid gray" }}
         >
-          <p className="text-white font-medium text-2xl md:text-xl">For SMEs </p>
+          <p className="text-white font-medium text-2xl md:text-xl">
+            For SMEs{" "}
+          </p>
           <p className="text-justify font-normal text-lg md:text-base text-white">
             We address the needs of the SMEs, whether for Fund raising as
             Working Capital or for Capex Loans or for enabling Technological or
@@ -99,10 +107,7 @@ export default function Approach() {
             it in terms of Revenue, Strategic partnerships or positioning them
             for Initial Public offerings.
           </p>
-          <Link
-            to="/form"
-            className="w-fit hero-button"
-          >
+          <Link to="/form" className="w-fit hero-button">
             <p className="flex text-white font-normal text-lg md:text-base">
               Know More
               <svg
@@ -143,10 +148,7 @@ export default function Approach() {
             well equipped with understanding of the Compliance environment thus
             providing a strategic fit for our potential clients in this segment.
           </p>
-          <Link
-            to="/form"
-            className="w-fit hero-button"
-          >
+          <Link to="/form" className="w-fit hero-button">
             <p className="flex text-navyblue font-normal text-lg md:text-base">
               Know More
               <svg

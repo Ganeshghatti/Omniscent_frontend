@@ -27,6 +27,7 @@ export default function OperationalExcellence() {
       <img
         src="./assets/Images/strategic/growth2.jpg"
         className="w-2/5 md:w-full object-cover"
+        alt="Omniscient Perspectives operational excellence"
       />
       <div className="flex flex-col w-1/2 md:w-11/12 gap-4 justify-center py-20 md:py-6">
         <h1>Operational Excellence</h1>

@@ -386,7 +386,7 @@ export default function Navbar() {
         <Link to="/">
           <img
             src={logo}
-            alt="logo"
+            alt="Omniscient Perspevtives logo"
             className="w-28 navbar-pc-animation-item"
           />
         </Link>
