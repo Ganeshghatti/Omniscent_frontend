@@ -31,15 +31,18 @@ export default function Description() {
         <img
           src="./assets/Images/Investmentbanking/investment2.jpg"
           className="w-2/5 mt-24 object-cover"
+          alt="Omniscient Perspectives Investment Banking-1"
         />
         <div className="flex flex-col gap-4 w-3/5">
           <img
             src="./assets/Images/Investmentbanking/investment1.jpg"
             className="h-2/5 object-cover"
+            alt="Omniscient Perspectives Investment Banking-2"
           />
           <img
             src="./assets/Images/Investmentbanking/investment3.jpg"
             className="h-2/5 object-cover"
+            alt="Omniscient Perspectives Investment Banking-3"
           />
         </div>
       </div>

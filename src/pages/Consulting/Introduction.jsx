@@ -117,6 +117,7 @@ export default function Introduction() {
             src="./assets/Images/strategic/intro.png"
             className="object-cover  self-end"
             style={{ borderRadius: "50%", objectFit: "cover" }}
+            alt="Omniscient Perspectives Consulting Introduction"
           />
         </div>
       </section>{" "}

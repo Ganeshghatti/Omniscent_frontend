@@ -12,6 +12,7 @@ export default function Description() {
         src="./assets/Images/strategic/meeting3.jpg"
         className="w-full object-cover"
         style={{ height: "60vh", objectPosition: "center 30%" }}
+        alt="Omniscient Perspectives Fractional CFO services"
       />
       <h1>Fractional CFO Services</h1>
       <p className="text-justify font-normal list-disc text-2xl md:text-xl text-gray2 w-full">

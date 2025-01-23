@@ -14,6 +14,7 @@ import varun from "./varun2.png";
 import abhishek from "./abhishek.png";
 import partner from "./partner.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import {Helmet} from "react-helmet";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -309,6 +310,11 @@ export default function AboutUs() {
       style={{ marginTop: "10vh" }}
       className="flex flex-col items-center gap-12 w-full pb-20"
     >
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About Us | Omniscient Perspectives </title>
+        <link rel="canonical" href="https://omniscientperspectives.com/about/about-us" />
+      </Helmet>
       <div className="about-header page-header flex items-center justify-center gap-4 flex-col w-full">
         <p className="text-white page-header-heading text-5xl md:text-3xl font-bold text-center">
           About Us
@@ -332,18 +338,24 @@ export default function AboutUs() {
           ambitions. Discover our legacy of success, where your business's
           evolution is our prime commitment.
         </p>
-        <img src={Aboutuspageimg} className="w-2/5 md:w-full about-sec1-img" />
+        <img
+          src={Aboutuspageimg}
+          className="w-2/5 md:w-full about-sec1-img"
+          alt="About Omniscient Perspectives"
+        />
       </div>
       <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec2">
         <img
           src={founderphoto}
           className="w-2/5 md:hidden object-cover about-sec2-img"
+          alt="Ramakrishnan Venkateswaran Omniscient Perspectives"
         />
         <div className="flex flex-col gap-6 w-1/2 md:w-full about-sec2-p">
           <h1 className="md:text-center">Founder and Principal Consultant</h1>
           <img
             src={founderphoto}
             className="md:block hidden md:w-full object-cover"
+            alt="Ramakrishnan Venkateswaran Omniscient Perspectives"
           />
           <p className="text-2xl md:text-xl text-gray2 text-justify">
             <span className="font-medium text-navyblue">
@@ -452,6 +464,7 @@ export default function AboutUs() {
           <img
             src={partner}
             className="md:block hidden md:w-full object-cover"
+            alt="Mohan Ramanathan Omniscient Perspectives"
           />
           <p className="text-2xl md:text-xl text-gray2 text-justify">
             <span className="font-medium text-navyblue">
@@ -477,13 +490,22 @@ export default function AboutUs() {
         <img
           src={partner}
           className="w-2/5 md:hidden object-cover about-sec3-img"
+          alt="Mohan Ramanathan Omniscient Perspectives"
         />
       </div>
-      <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec4">
-        <img src={abhishek} className="w-2/5 md:hidden about-sec4-img" />
+      {/* <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec4">
+        <img
+          src={abhishek}
+          className="w-2/5 md:hidden about-sec4-img"
+          alt="Abhishek Dhawan Omniscient Perspectives"
+        />
         <div className="flex flex-col gap-6 w-1/2 md:w-full about-sec4-p">
           <h1 className="md:text-center">Consultant</h1>
-          <img src={abhishek} className="hidden md:block md:w-full" />
+          <img
+            src={abhishek}
+            className="hidden md:block md:w-full"
+            alt="Abhishek Dhawan Omniscient Perspectives"
+          />
           <p className="text-2xl md:text-xl text-gray2 text-justify">
             <span className="font-medium text-navyblue">Abhishek Dhawan ,</span>
             a finance leader with 17+ years of expertise in Strategy, M&A,
@@ -507,11 +529,15 @@ export default function AboutUs() {
             <LinkedInIcon style={{ color: "#1F20AE", fontSize: 45 }} />
           </a>
         </div>
-      </div>
+      </div> */}
       <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec5">
         <div className="flex flex-col gap-6 w-1/2 md:w-full about-sec5-p">
           <h1 className="md:text-center">Consultant</h1>
-          <img src={varun} className="md:block hidden md:w-full object-cover" />
+          <img
+            src={varun}
+            className="md:block hidden md:w-full object-cover"
+            alt="Varun Nagarajan Omniscient Perspectives"
+          />
           <p className="text-2xl md:text-xl text-gray2 text-justify">
             <span className="font-medium text-navyblue">Varun Nagarajan </span>
             is a seasoned professional with a proven track record in
@@ -540,6 +566,7 @@ export default function AboutUs() {
         <img
           src={varun}
           className="w-2/5 md:hidden object-cover about-sec5-img"
+          alt="Varun Nagarajan Omniscient Perspectives"
         />
       </div>
     </section>

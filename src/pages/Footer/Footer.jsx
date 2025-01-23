@@ -39,6 +39,12 @@ export default function Footer() {
       className="flex md:flex-col justify-center items-start py-12 md:gap-16 md:items-center"
     >
       <div className="w-1/4 flex flex-col items-left gap-4 md:items-center md:w-full footer-div">
+        <p className="text-white text-sm">
+          Omniscient Perspectives Private Limited, Regus Business Centre
+          (Bangalore) Pvt Ltd, Level 9, Raheja Towers, East Wing, No. 26/27 MG
+          Road, Mahatma Gandhi Road, Bangalore, Bangalore North, Karnataka,
+          India, 560001
+        </p>
         <p className="text-white uppercase text-lg">Call us Today</p>
         <a
           href="tel:7411035211"
@@ -63,7 +69,10 @@ export default function Footer() {
             className="bg-white flex items-center justify-center"
             style={{ borderRadius: "50%", width: "40px", height: "40px" }}
           >
-            <img src="./assets/Images/Icons/linkedin.png" />
+            <img
+              src="./assets/Images/Icons/linkedin.png"
+              alt="Omniscient Perspectives footer socials linkedin logo"
+            />
           </a>
           {/* <a
             href=""

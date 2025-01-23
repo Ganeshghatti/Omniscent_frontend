@@ -13,6 +13,7 @@ import Spinnerf from "../../Components/Spinnerf";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useMediaQuery } from "react-responsive";
+import {Helmet} from "react-helmet";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -78,8 +79,11 @@ export default function Form() {
 
       setLoading(true);
 
-      const response = await axios.post("https://omniscent-backend.vercel.app/form", formData);
-      console.log(response)
+      const response = await axios.post(
+        "https://omniscent-backend.vercel.app/form",
+        formData
+      );
+      console.log(response);
       setLoading(false);
       window.scrollTo(0, 0);
       setisformsubmitted(true);
@@ -172,6 +176,15 @@ export default function Form() {
       style={{ marginTop: "13vh" }}
       id="form"
     >
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact us | Omniscient Perspectives </title>
+        <link
+          rel="canonical"
+          href="https://omniscientperspectives.com/form"
+        />
+      </Helmet>
+
       {loading && <Spinnerf />}
       <Stack spacing={2}>{alert}</Stack>
       {!isformsubmitted && (
@@ -242,9 +255,9 @@ export default function Form() {
               </div>
               <p className="text-2xl md:text-xl font-medium">Meet Us</p>
               <p className="text-gray2 text-lg md:text-base font-normal">
-                You can meet us at a convenient place 
+                You can meet us at a convenient place
               </p>
-            
+
               {/* <a
                 href="mailto:ramakrishnan@omniscientperspectives.in"
                 className="text-navyblue text-lg md:text-base font-medium flex items-center"
