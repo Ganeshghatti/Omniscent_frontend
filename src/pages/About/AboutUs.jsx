@@ -14,7 +14,7 @@ import varun from "./varun2.png";
 import abhishek from "./abhishek.png";
 import partner from "./partner.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -344,7 +344,7 @@ export default function AboutUs() {
           alt="About Omniscient Perspectives"
         />
       </div>
-      <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec2">
+      { /*<div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec2">
         <img
           src={founderphoto}
           className="w-2/5 md:hidden object-cover about-sec2-img"
@@ -385,7 +385,7 @@ export default function AboutUs() {
             <LinkedInIcon style={{ color: "#1F20AE", fontSize: 45 }} />
           </a>
         </div>
-      </div>
+      </div> */}
       {/* <div className="flex flex-col w-3/4 md:w-11/12 md:self-center md:p-0 self-start gap-8 items-start pl-36 about-timeline">
         <h1 className="md:text-center">Expertise</h1>
         <div className="flex gap-8">

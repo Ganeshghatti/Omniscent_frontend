@@ -40,10 +40,7 @@ export default function Footer() {
     >
       <div className="w-1/4 flex flex-col items-left gap-4 md:items-center md:w-full footer-div">
         <p className="text-white text-sm">
-          Omniscient Perspectives Private Limited, Regus Business Centre
-          (Bangalore) Pvt Ltd, Level 9, Raheja Towers, East Wing, No. 26/27 MG
-          Road, Mahatma Gandhi Road, Bangalore, Bangalore North, Karnataka,
-          India, 560001
+          Omniscient Perspectives Private Limited, Regus at Rurabi Ventures Private Limited, No 11, Global Tech Park, O Shaughnessy Rd, Langford Town, Langford Gardens, Richmond Town, Bangalore, Karnataka, India, 560025
         </p>
         <p className="text-white uppercase text-lg">Call us Today</p>
         <a
