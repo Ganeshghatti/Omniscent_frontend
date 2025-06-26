@@ -14,7 +14,7 @@ import varun from "./varun2.png";
 import abhishek from "./abhishek.png";
 import partner from "./partner.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -453,12 +453,12 @@ export default function AboutUs() {
           </div>
         </div>
       </div> */}
-      <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec3">
+      {/* <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec3">
         <div className="flex flex-col gap-6 w-1/2 md:w-full about-sec3-p">
           {/* <p className="text-2xl font-bold text-bluepurple md:text-center">
             Our Partners
           </p> */}
-          <h1 className="md:text-center">
+      {/* <h1 className="md:text-center">
             Advisor, Digital Transformation and Sustainability
           </h1>
           <img
@@ -491,8 +491,8 @@ export default function AboutUs() {
           src={partner}
           className="w-2/5 md:hidden object-cover about-sec3-img"
           alt="Mohan Ramanathan Omniscient Perspectives"
-        />
-      </div>
+        /> */}
+      {/* </div>  */}
       {/* <div className="flex w-11/12 md:flex-col items-center justify-center gap-12 about-sec4">
         <img
           src={abhishek}
@@ -569,6 +569,6 @@ export default function AboutUs() {
           alt="Varun Nagarajan Omniscient Perspectives"
         />
       </div>
-    </section>
+    </section >
   );
 }
